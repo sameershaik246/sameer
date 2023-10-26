@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript If Else Statement Example</title>
+</head>
+<body>
+    <label for="Enter your Age">Enter your Age</label>
+    <input type="text" id="as"><br><br>
+    <button onclick="check()">Display</button>
+    <p id ="result">Result</p>
+    <script>
+        function check(){
+            var age=document.getElementById("as").value
+           
+            if(age>=18){
+                document.getElementById("result").innerHTML="You are eligible for Voting"
+ 
+            }else{
+                document.getElementById("result").innerHTML="You are not eligible for Voting"
+            }
+        }
+       
+   
+     </script>
+ 
+</body>
+</html>
